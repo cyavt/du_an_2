@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^home?$ /index.php [L]
+RewriteRule ^thongtin?$ /detail.php [L]
+RewriteRule ^error?$ /dev404/dev404.html [L]
+
+ErrorDocument 401 /error
+ErrorDocument 403 /error
+ErrorDocument 404 /error
+ErrorDocument 400 /error
