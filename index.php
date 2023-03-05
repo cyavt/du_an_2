@@ -15,7 +15,8 @@
 			tác giữa các lĩnh vực chuyên môn sẽ giúp cho chúng tôi học hỏi, đạt được mục tiêu và nỗ lực
 			phát triển cộng đồng một cách tốt nhất.</p>
 		<ul class="actions">
-			<li><a href="./thongtin" class="button big">Chi tiết</a></li>
+			<li><a href="#" id="myBtn" class="button primary">Tham gia</a></li>
+			<li><a href="./thongtin" id="detail" class="button big">Chi tiết</a></li>
 		</ul>
 	</div>
 	<span class="image object">
