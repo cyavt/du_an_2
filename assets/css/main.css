@@ -128,11 +128,12 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0;
+  font-size: medium; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -990,7 +991,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -1270,7 +1271,9 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em; }
   ul li {
-    padding-left: 0.5em; }
+    padding-left: 0.5em; 
+    font-size: 15px;
+  }
   ul.alt {
     list-style: none;
     padding-left: 0; }
@@ -1482,7 +1485,6 @@ table {
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-button,
 .button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1496,10 +1498,10 @@ button,
   border-radius: 0.375em;
   border: 0;
   box-shadow: inset 0 0 0 2px #e8bf38;
-  color: #e8bf38 !important;
+  color: #e8bf38;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.5em;
@@ -1974,7 +1976,7 @@ button,
     white-space: nowrap;
     top: 0;
     width: 6em;
-    z-index: 10000; }
+    z-index: 1000; }
     #sidebar .toggle:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -2025,7 +2027,7 @@ button,
       left: 0;
       position: fixed;
       top: 0;
-      z-index: 10000; }
+      z-index: 1000; }
       #sidebar.inactive {
         box-shadow: none; }
       #sidebar > .inner {
@@ -2087,7 +2089,7 @@ button,
   #header .logo {
     border-bottom: 0;
     color: inherit;
-    font-family: "Roboto Slab", serif;
+    font-family: "Open Sans", serif;
     font-size: 1.125em; }
   #header .icons {
     text-align: right; }
@@ -2137,7 +2139,7 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 40%; }
     #banner .image img {
       height: 100%;
       -moz-object-fit: cover;
@@ -2199,7 +2201,7 @@ button,
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
@@ -2212,7 +2214,8 @@ button,
     cursor: pointer;
     display: block;
     font-size: 0.9em;
-    padding: 0.625em 0; }
+    padding: 0.625em 0;
+    font-weight:bold; }
     #menu ul a:hover, #menu ul span:hover {
       color: #e8bf38; }
     #menu ul a.opener, #menu ul span.opener {

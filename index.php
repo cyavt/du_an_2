@@ -19,7 +19,19 @@
 		</ul>
 	</div>
 	<span class="image object">
-		<img src="images/thietbilab.jpg" alt="" />
+		<img class="mySlides3" src="images/thietbilab.jpg" alt="" />
+		<img class="mySlides3" src="images/04.jpg" alt="" />
+		<img class="mySlides3" src="images/07.jpg" alt="" />
+		<img class="mySlides3" src="images/EnviCan.png" alt="" />
+		<button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+
+		<div class="badge" style="width:100%">
+
+			<span class="image-badge"  onclick="currentDiv(1)"></span>
+			<span class="image-badge" onclick="currentDiv(2)"></span>
+			<span class="image-badge" onclick="currentDiv(3)"></span>
+		</div>
 	</span>
 </section>
 
@@ -32,12 +44,8 @@
 		<article>
 			<div class="center"><span class="icon solid fa-wifi"></span></div>
 			<div class="content">
-				<h3>Smart Home <i style="font-size: 15px;">(Lĩnh vực trọng tâm)</i></h3>
-				<p>Smart Home là một trong những lĩnh vực công nghệ phát triển mạnh mẽ nhất trong thế kỷ
-					21. Đây là một giải pháp công nghệ cho phép bạn tận hưởng một cuộc sống tiện nghi và
-					dễ dàng hơn bao giờ hết. Smart Home cho phép bạn kiểm soát và điều khiển tất cả các
-					thiết bị trong nhà bằng một thiết bị điện tử hoặc một ứng dụng trên điện thoại di
-					động của mình.</p>
+				<h3>IoT <i style="font-size: 15px;">(Lĩnh vực trọng tâm)</i></h3>
+				<p>Internet of Things (IoT) là một lĩnh vực công nghệ đang phát triển rất nhanh trong thời gian gần đây. IoT liên kết các thiết bị thông minh với nhau để tạo thành một hệ thống tự động, thông minh. Các xu hướng IoT bao gồm sự phát triển của các thiết bị thông minh và các ứng dụng của chúng, tăng cường sự kết nối của IoT, phát triển của các nền tảng IoT và các công nghệ mới như AI và blockchain được tích hợp vào IoT.</p>
 			</div>
 		</article>
 		<article>

@@ -8,8 +8,28 @@
 	<!-- Content -->
 	<h2 id="content">Xin chào các bạn !</h2>
 	<p>Innovation Lab được thành lập với mục đích thúc đẩy các hoạt động nghiên cứu khoa học (thuộc trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng). Ngoài ra, còn giúp các bạn tìm kiếm và thực hiện đam mê, nơi bạn thấy được sự quyết tâm và nổ lực học tập rèn luyện để có một tương lai vững vàng trên con đường phía trước.</p>
-	<p>Mục tiêu của Innovation Lab là phát triển thành một câu lạc bộ STEAM, tham gia vào các dự án liên ngành và các cuộc thi liên trường, cùng với sự hỗ trợ từ các bạn sinh viên ở các trường trên địa bàn Tp. Chúng ta sẽ cùng nhau học tập và phát triển năng lực (Lập trình, điện tử căn bản, tư duy thiết kế) cũng như chia sẻ các kỹ năng mềm: kỹ năng thuyết trình, tin học, photoshop, edit video… và một số thủ thuật khác. Ngoài những buổi học tập và làm việc, còn có những buổi trò chuyện, giải trí, liên hoan hay các hoạt động ngoại khóa … để tăng cường sự gắn kết giữa các thành viên.</p>
+	<div class="box alt">
+		<div class="row gtr-50 gtr-uniform">
+			<div class="col-6">
+				<span class="image fit"><img src="images/05.jpg" alt=""></span>
+			</div>
+			<div class="col-6">
+				<span class="image fit"><img src="images/06.jpg" alt=""></span>
+			</div>
+		</div>
+	</div>
+	<p>Mục tiêu của Innovation Lab là phát triển thành câu lạc bộ STEAM, tham gia vào các dự án liên ngành và các cuộc thi liên trường, cùng với sự hỗ trợ từ các bạn sinh viên ở các trường trên địa bàn Tp. Chúng ta sẽ cùng nhau học tập và phát triển năng lực (Lập trình, điện tử căn bản, tư duy thiết kế) cũng như chia sẻ các kỹ năng mềm: kỹ năng thuyết trình, tin học, photoshop, edit video… và một số thủ thuật khác. Ngoài những buổi học tập và làm việc, còn có những buổi trò chuyện, giải trí, liên hoan hay các hoạt động ngoại khóa … để tăng cường sự gắn kết giữa các thành viên.</p>
 	<p>Lĩnh vực Lab hướng đến: Nghiên cứu, phát triển các hệ thống IoT (Internet of things), trọng tâm là SmartHome.</p>
+	<div class="box alt">
+		<div class="row gtr-50 gtr-uniform">
+			<div class="col-6">
+				<span class="image fit"><img src="images/01.jpg" alt=""></span>
+			</div>
+			<div class="col-6">
+				<span class="image fit"><img src="images/02.jpg" alt=""></span>
+			</div>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-4 col-12-medium">
 			<h3>Thành tựu bước đầu đạt được:</h3>
