@@ -94,11 +94,12 @@
 </div>
 
 <!-- Scripts -->
-<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/browser.min.js"></script>
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/api.js"></script>
 <script>
     const home = document.getElementById('detail');
 
@@ -183,37 +184,6 @@
             slideIndex++;
         }
     }
-    /* <!-- POST data --> */
-    $("#Add").on('submit', (function(e) {
-        e.preventDefault();
-        $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbytqfYjsfngfUjdFmwMbgBW2hl80K3lKfG3Lu5pWSu4jjtk0sQXfWvqok9c4TilN0D2/exec",
-            type: "GET",
-            data: $("#Add").serialize(),
-            contentType: false,
-            cache: false,
-            processData: false,
-            beforeSend: function() {
-                $("#sbtn").text('Đang xử lý...').prop('disabled', true)
-            },
-            success: function(data) {
-                console.log(data)
-                $("#sbtn").text('Gửi').prop('disabled', false)
-                if (data['result'] == 'success')
-                    swal("Thành công !", "Thêm thành công", "success").then(function() {
-                        location.reload();
-                    })
-                else if (data == 'null')
-                    swal("Lỗi !", "Vui lòng điền đủ thông tin!", "error")
-                else
-                    swal("Lỗi !", "Vui lòng thử lại !", "error")
-            },
-            error: function() {
-                swal("Đã xảy ra lỗi!", "Đã xảy ra lỗi cục bộ, vui lòng thử lại!", "error")
-                $("#sbtn").text('Gửi').prop('disabled', false)
-            }
-        });
-    }))
 </script>
 </body>
 
