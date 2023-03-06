@@ -99,7 +99,7 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/api.js"></script>
+<script src="conn/js/api.js"></script>
 <script>
     const home = document.getElementById('detail');
 
