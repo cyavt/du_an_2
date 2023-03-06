@@ -77,8 +77,8 @@
             <p>Mọi thông tin chi tiết vui lòng liên hệ cho chúng tôi. IoT Innovation Lab</p>
             <p><a href="https://ute.udn.vn/" target="_blank">Trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng</a></p>
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="#">information@gmail.com</a></li>
-                <li class="icon solid fa-phone">(000) 000-0000</li>
+                <li class="icon solid fa-envelope"><a href="#">iotlab101222@gmail.com</a></li>
+                <li class="icon solid fa-phone">+84 9898169249</li>
                 <li class="icon solid fa-home">02 Thanh Sơn<br />
                     Hải Châu, TP. Đà nẵng</li>
             </ul>
@@ -86,7 +86,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <p class="copyright">&copy; IoT Innovation Lab<a href="/"> LAB</a>. Design: CYA</a>.</p>
+            <p class="copyright">&copy; IoT Innovation Lab.<a href="https://zalo.me/0898169249"> Design by CYA .</p>
         </footer>
     </div>
 </div>
