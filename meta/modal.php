@@ -77,7 +77,7 @@
                 <!-- Break -->
                 <div class="col-6 col-12-small">
                     <input type="checkbox" id="demo-copy" name="dieukien" value="yes" required>
-                    <label for="demo-copy">Vui lòng đầy đủ "<a href="./thongtin">Thông tin</a>" trước khi chọn.</label>
+                    <label for="demo-copy">Vui lòng xem đầy đủ "<a href="./thongtin">Thông tin</a>" trước khi đồng ý.</label>
                 </div>
                 <!-- Break -->
                 <div class="col-12">
