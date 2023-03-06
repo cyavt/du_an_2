@@ -8,6 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/x-icon" href="./images/LOGO-N.png">
+    <!-- các công cụ tìm kiếm fb, zalo -->
+    <meta property="og:title" content="Innovation Lab">
+    <meta property="og:description" content="Phòng nghiên cứu khoa học dành cho sinh viên. Trường Đại học Sư phạm Kỹ thuật- Đại học Đà Nẵng">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iilab.tech" />
+    <meta property="og:image" content="./images/ILab.png" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="250" />
     <!-- SweetAlert2 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>

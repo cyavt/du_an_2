@@ -1,4 +1,4 @@
-
+/* HACKER */
 (function($) {
 
 	var	$window = $(window),
