@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://iilab.tech" />
     <meta property="og:image" content="https://iilab.tech/images/ILab.png" />
-    <meta property="og:image:width" content="1500" />
+    <meta property="og:image:width" content="2000" />
     <meta property="og:image:height" content="400" />
     <!-- SweetAlert2 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
