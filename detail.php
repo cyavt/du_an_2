@@ -10,10 +10,10 @@
 	<p>Innovation Lab được thành lập với mục đích thúc đẩy các hoạt động nghiên cứu khoa học (thuộc trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng). Ngoài ra, còn giúp các bạn tìm kiếm và thực hiện đam mê, nơi bạn thấy được sự quyết tâm và nổ lực học tập rèn luyện để có một tương lai vững vàng trên con đường phía trước.</p>
 	<div class="box alt">
 		<div class="row gtr-50 gtr-uniform">
-			<div class="col-6">
+			<div class="col-6 col-12-medium">
 				<span class="image fit"><img src="images/05.jpg" alt=""></span>
 			</div>
-			<div class="col-6">
+			<div class="col-6 col-12-medium">
 				<span class="image fit"><img src="images/06.jpg" alt=""></span>
 			</div>
 		</div>
@@ -22,10 +22,10 @@
 	<p>Lĩnh vực Lab hướng đến: Nghiên cứu, phát triển các hệ thống IoT (Internet of things), trọng tâm là SmartHome.</p>
 	<div class="box alt">
 		<div class="row gtr-50 gtr-uniform">
-			<div class="col-6">
+			<div class="col-6 col-12-medium">
 				<span class="image fit"><img src="images/01.jpg" alt=""></span>
 			</div>
-			<div class="col-6">
+			<div class="col-6 col-12-medium">
 				<span class="image fit"><img src="images/02.jpg" alt=""></span>
 			</div>
 		</div>
@@ -33,10 +33,8 @@
 	<div class="row">
 		<div class="col-4 col-12-medium">
 			<h3>Thành tựu bước đầu đạt được:</h3>
-
-			<p>
-			<h4>Đề tài:</h4>"Xây dựng hệ thống quản lý rác thải nguy hại có nguy cơ lây nhiễm" <br>- Giáo viên hướng dẫn: TS. Trần Hoàng Vũ</p>
-
+			<h4>Đề tài:</h4>
+			<p>"Xây dựng hệ thống quản lý rác thải nguy hại có nguy cơ lây nhiễm" <br>- Giáo viên hướng dẫn: TS. Trần Hoàng Vũ</p>
 			<ul>
 				<li>Giải nhất cuộc thi nghiên cứu khoa học cấp trường</li>
 				<li>Giải nhất cuộc thi "Triển lãm sáng tạo trong đoàn thanh niên năm 2022"</li>

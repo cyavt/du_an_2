@@ -32,6 +32,7 @@
 			<span class="image-badge"  onclick="currentDiv(1)"></span>
 			<span class="image-badge" onclick="currentDiv(2)"></span>
 			<span class="image-badge" onclick="currentDiv(3)"></span>
+			<span class="image-badge" onclick="currentDiv(4)"></span>
 		</div>
 	</span>
 </section>

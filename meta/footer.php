@@ -131,9 +131,15 @@
     }
     /* slide */
     if (home != undefined) {
-        var slideIndex = 1;
+        let slideIndex = 1;
+        let number = 0;
         showDivs(slideIndex);
-        carousel2();
+        auto();
+
+        function auto() {
+            plusDivs(1);
+            setTimeout(auto, 4000);
+        }
 
         function plusDivs(n) {
             showDivs(slideIndex += n);
@@ -162,26 +168,6 @@
             }
             x[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " badge-white";
-            
-        }
-
-        function carousel2() {
-            let i;
-            const x = document.getElementsByClassName("mySlides3");
-            const dots = document.getElementsByClassName("image-badge");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            if (slideIndex > x.length) {
-                slideIndex = 1
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" badge-white", "");
-            }
-            x[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " badge-white";
-            setTimeout(carousel2, 2000);
-            slideIndex++;
         }
     }
 </script>
