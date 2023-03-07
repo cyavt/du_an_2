@@ -19,12 +19,23 @@
                     <input type="text" name="msv" id="" placeholder="Mã sinh viên" required/>
                 </div>
                 <div class="col-6 col-12-xsmall">
-                    <input type="text" name="khoa" id="" placeholder="Khoa" required/>
+                    <input type="text" name="nganh" id="" placeholder="Chuyên ngành" required/>
                 </div>
                 <div class="col-6 col-12-xsmall">
                     <input type="text" name="lopsh" id="" placeholder="Lớp SH" required/>
                 </div>
                 <!-- Break -->
+                <div class="col-12">
+                    <select name="khoa" id="demo-category">
+                        <option value="0">- Khoa -</option>
+                        <option value="Khoa điện">Điện</option>
+                        <option value="Khoa cơ khí">Cơ khí</option>
+                        <option value="Khoa công nghệ số">Công nghệ số</option>
+                        <option value="Khoa xây dựng">Xây dựng</option>
+                        <option value="Khoa hóa học - Môi trường">Hóa học - Môi trường</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </div>
                 <div class="col-12">
                     <select name="vitri" id="demo-category">
                         <option value="0">- Vị trí ứng tuyển -</option>
@@ -71,7 +82,7 @@
                     <label for="yes3">Có</label>
                 </div>
                 <div class="col-4 col-12-small">
-                    <input type="radio" id="no3" name="nckh" value="x">
+                    <input type="radio" id="no3" name="nckh" value="0">
                     <label for="no3">Không</label>
                 </div>
                 <!-- Break -->

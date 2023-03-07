@@ -123,8 +123,8 @@
     for (let i = 0; i < dev.length; i++) {
         dev[i].addEventListener('click', function() {
             swal(
-                'Sorry :(',
-                'Chỉ có thành viên mới sử dụng được tính năng này !',
+                'Error',
+                'Tính năng này chưa được cấp quyền !',
                 'info'
             )
         });
