@@ -138,7 +138,7 @@
 
         function auto() {
             plusDivs(1);
-            setTimeout(auto, 4000);
+            setTimeout(auto, 3000);
         }
 
         function plusDivs(n) {
