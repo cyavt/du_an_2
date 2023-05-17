@@ -1,4 +1,8 @@
 RewriteEngine On
+RewriteRule ^(.*).html/?$ index.php?page=$1 [L]
+RewriteRule ^data/form/?$ connect/rv-form-data.php [L]
+RewriteRule ^data/json/?$ connect/rv-json-data.php [L]
+RewriteRule ^send/(.*)/?$ connect/send-data.php?key=$1 [QSA,L]
 
 ErrorDocument 401 /pages-404.php
 ErrorDocument 403 /pages-404.php

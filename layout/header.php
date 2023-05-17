@@ -153,17 +153,6 @@
 
             <!-- LOGO -->
             <div class="logo-box">
-                <a href="index.html" class="logo text-center logo-dark">
-                    <span class="logo-lg">
-                        <img src="assets\images\logo-dark.png" alt="" height="18">
-                        <!-- <span class="logo-lg-text-dark">Velonic</span> -->
-                    </span>
-                    <span class="logo-sm">
-                        <!-- <span class="logo-lg-text-dark">V</span> -->
-                        <img src="<?=$logo["logo-sm"];?>" alt="" height="22">
-                    </span>
-                </a>
-
                 <a href="/" class="logo text-center logo-light">
                     <span class="logo-lg">
                         <img src="<?=$logo["logo-light"][0];?>" alt="" height="<?=$logo["logo-light"][1];?>">
@@ -221,7 +210,7 @@
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="/">Thống kê</a></li>
-                                <li><a href="map-local.php">Vị trí</a></li>
+                                <li><a href="local.html">Vị trí</a></li>
                             </ul>
                         </li>
 
@@ -259,7 +248,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="javascript: void(0);" class="waves-effect">
+                            <a href="../pages/logout.php?destroy=username" class="waves-effect">
                                 <i class="mdi mdi-backspace-reverse"></i>
                                 <span> Đăng xuất </span>
                             </a>

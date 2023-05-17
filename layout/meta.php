@@ -1,6 +1,3 @@
-<?php
-include_once("./connect/config.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +18,6 @@ include_once("./connect/config.php");
     <link href="assets\css\bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
     <link href="assets\css\icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet">
-
 
     <style>
         @media (max-width:767.98px) {

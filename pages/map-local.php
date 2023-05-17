@@ -1,15 +1,3 @@
-<?php
-include("./meta.php");
-include("./header.php");
-?>
-
-
-
-<!-- ============================================================== -->
-<!-- Start Page Content here -->
-<!-- ============================================================== -->
-
-
 <div class="content">
 
     <!-- Start Content-->
@@ -36,7 +24,7 @@ include("./header.php");
             <div class="col-md-12" style="padding: 0;">
                 <div class="card">
                     <div class="card-body" style="padding: .5rem;">
-                        <div id="gmaps-basic" class="gmaps" style="height: 600px;"></div>
+                        <div id="map" class="gmaps" style="height: 600px;"></div>
                     </div>
                 </div>
             </div>
@@ -48,10 +36,3 @@ include("./header.php");
     </div>
     <!-- end content -->
 </div>
-
-<!-- ============================================================== -->
-<!-- End Page content -->
-<!-- ============================================================== -->
-<?php
-include("./footer.php");
-?>
