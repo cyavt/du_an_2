@@ -82,11 +82,11 @@ if (!isset($row)) {
                                 <thead>
                                     <tr>
                                         <th>#ID</th>
-                                        <th>Vị trí</th>
-                                        <th>Nhịp tim</th>
-                                        <th>Trạng Thái</th>
-                                        <th>Dung lượng pin %</th>
-                                        <th>Thời gian hoạt động</th>
+                                        <th>Location</th>
+                                        <th>Heartbeat</th>
+                                        <th>State</th>
+                                        <th>Battery capacity %</th>
+                                        <th>Time log</th>
                                     </tr>
                                 </thead>
                                 <tbody>

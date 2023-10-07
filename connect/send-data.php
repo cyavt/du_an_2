@@ -43,22 +43,6 @@ if (isset($_GET['key'])) :
             }
             mysqli_close($connect);
             break;
-        case 'getList':
-            $result = mysqli_query($connect, "SELECT l.*, s.status, s.color
-                                                    FROM lifebuoy_in as l
-                                                    JOIN state as s ON l.water_state = s.id
-                                                    ORDER BY water_state DESC");
-            if (mysqli_num_rows($result) > 0) {
-                $rows = array();
-                while ($r = mysqli_fetch_assoc($result)) {
-                    $rows[] = $r;
-                }
-                echo json_encode($rows);
-            } else {
-                echo '{"result": "no data found"}';
-            }
-            mysqli_close($connect);
-            break;
         case 'general':
 
             // Tổng số phao hiện có

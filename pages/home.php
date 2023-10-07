@@ -49,7 +49,32 @@
                                                         <th>Xem chi tiết</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody  id="tableBody"></tbody>
+                                                <tbody>
+                                                    <?php
+                                                    $result = mysqli_query($connect, "SELECT l.*, s.status, s.color
+                                                    FROM lifebuoy_in as l
+                                                    JOIN state as s ON l.water_state = s.id
+                                                    ORDER BY water_state DESC");
+                                                    //var_dump(mysqli_fetch_assoc($result));
+                                                    foreach ($result as $row) :
+                                                    ?>
+                                                        <tr>
+                                                            <td><?= $row['id']; ?></td>
+                                                            <td><?= $row['name']; ?></td>
+                                                            <td><a href="https://www.google.com/maps/place/<?= $row['location']; ?>" style="color:red;" target="_blank"><?= $row['location']; ?></a></td>
+                                                            <td>
+                                                                <span class="badge badge-<?= $row['color']; ?>"><?= $row['status']; ?></span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span data-plugin="peity-pie" data-colors="<?= ($row['bat_cap'] < 25) ? '#f72548' : '#3bc0c3'; ?>,#ebeff2" data-width="30" data-height="30"><?= $row['bat_cap']; ?>/100
+                                                                </span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <a type="button" href="detail.html?id=<?= $row['token'] ?>" class="btn btn-icon waves-effect btn-info"> <i class="fas fa-angle-double-right"></i> </a>
+                                                            </td>
+                                                        </tr>
+                                                    <?php endforeach; ?>
+                                                </tbody>
                                             </table>
                                         </div>
                                     </div>

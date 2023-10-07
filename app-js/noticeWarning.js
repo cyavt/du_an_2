@@ -1,3 +1,14 @@
+Pusher.logToConsole = false;
+
+var pusher = new Pusher("654311a90dc38cfbce19", {
+  cluster: "ap1",
+});
+
+var channel = pusher.subscribe("getPhao");
+channel.bind("update", function (e) {
+  location.reload();
+});
+
 $.ajax({
   url: "send/warning",
   dataType: "json",
@@ -16,11 +27,6 @@ $.ajax({
           }
         }, 5000);
       }
-      // } else {
-      //   setTimeout(function () {
-      //     location.reload();
-      //   }, 20000);
-      // }
     });
   },
   error: function () {

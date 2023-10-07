@@ -70,9 +70,6 @@
             <script src="app-js/noticeWarning.js"></script>
             <!-- Thống kê -->
             <script src="app-js/thongke.js"></script>
-            <!-- Lấy toàn bộ danh sách phao -->
-            <script src="app-js/api.js"></script>
-            
         <?php break;
         case "local":
         ?>
@@ -147,8 +144,8 @@
                                     var status = 'status4'
                                 }
 
-                                let v_content = "Tên: " + "<span style='color:red;'>" + result['name'] + "</span>";
-                                v_content += "</br>Vị trí: <a href='https://www.google.com/maps/place/" + result['location'] + "' style='color:blue;'>" + result['location'] + "</a>";
+                                let v_content = "Name: " + "<span style='color:red;'>" + result['name'] + "</span>";
+                                v_content += "</br>Location: <a href='https://www.google.com/maps/place/" + result['location'] + "' style='color:blue;'>" + result['location'] + "</a>";
 
                                 return {
                                     position: {

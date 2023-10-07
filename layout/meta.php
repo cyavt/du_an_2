@@ -20,7 +20,7 @@
     <link href="assets\css\bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
     <link href="assets\css\icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet">
-    <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+
     <style>
         @media (max-width:767.98px) {
             .page-title-box .page-title {
